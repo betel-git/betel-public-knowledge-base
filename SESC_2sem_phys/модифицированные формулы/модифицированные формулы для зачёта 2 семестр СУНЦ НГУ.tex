@@ -1,0 +1,182 @@
+\input{preamble.tex}
+
+\begin{document}
+	\maketitle
+	
+	\begin{abstract}
+		В данном файле собраны все формулы, которые представлены в вариантах для дифференциального зачёта за 2 семестр для одногодичного потока СУНЦ НГУ.
+	\end{abstract}
+	
+	\section{Термодинамика}
+	\begin{enumerate}
+		\item КПД цикла Карно: \[ \eta = \frac{T_{\text{Н}} - T_{\text{Х}}}{T_{\text{Н}}} \]
+		\item Тепловое расширение жидкостей и твёрдых тел: \[ l = l_0 (1 + \alpha (T - T_0)) \]
+		\item Первое начало термодинамики: \[ dQ = dE + PdV \]
+		\item Теплоёмкость: \[ C = \frac{dQ}{dT} \]
+		\item Количество степеней свободы у молекулы: \[ S_{*} = 3r, \ \text{где r - количество атомов} \]
+		\item Закон Бойля-Мариотта: \[ pV = const \]
+		\item Теплота фазового перехода при испарении: \[ Q = qm \]
+		\item Работа газа: \[ dA = pdV \]
+		\item Адиабата: \[ pV^{\gamma} = const \]
+		\item Формула Майера для теплоёмкостей: \[ c_p = c_v + \nu R \]
+		
+	\end{enumerate}
+	
+	\section{Электростатика}
+	\begin{enumerate}
+		%\item Закон Кулона: \[ F = \frac{1}{4 \pi \varepsilon_0} \cdot \frac{q_{1} q_{2}}{r_{12}^2} \]
+		%\item Напряжённость электрического поля: \[ \overrightarrow{F} = q_2 \overrightarrow{E}\]
+		%\item Поле от точечного заряда: \[ \overrightarrow{E} = \frac{1}{4 \pi \varepsilon_0} \cdot \frac{q_1}{r_{12}^2} \cdot \overrightarrow{r_{12}}\]
+		%\item Принцип суперпозиции для поля: \[ \overrightarrow{E} = \sum_i \overrightarrow{E_i}\]
+		%\item Потенциал электрического поля от точечного заряда: \[ \varphi = \frac{1}{4 \pi \varepsilon_0} \cdot \frac{q}{r}\]
+		%\item Принцип суперпозиции для потенциала: \[\varphi = \sum_i \varphi_i\]
+		\item Потенциальная энергия взаимодействия: \[U = \frac{1}{4 \pi \varepsilon_0} \cdot \frac{q_1 q_2}{r}\]
+		\item Уравнения Максвелла:
+		\begin{enumerate}
+			\item Теорема Гаусса: \[ \oint_S \overrightarrow{D} \overrightarrow{\mathrm{ds}} = q_{св}\]
+			\item Закон электромагнитной индукции: \[ \oint_L \overrightarrow{E} \overrightarrow{\mathrm{dl}} = - \frac{\partial{\Phi}}{\partial{t}} \]
+			%\item Закон отсутствия электромагнитных зарядов: \[ \oint_S \overrightarrow{B} \overrightarrow{\mathrm{ds}} = 0\]
+			\item  Теорема Стокса: \[ \oint_L \overrightarrow{H} \overrightarrow{\mathrm{dl}} = I_{св} + \frac{\partial{\Pi}}{\partial{t}}\]
+		\end{enumerate}
+		\item Поток магнитной индукции через поверхность S, опирающуюся на контур L: \[ \Phi =  \int_S \overrightarrow{B} \overrightarrow{\mathrm{ds}}\]
+		%\item Поток индукции электрического поля через поверхность S, опирающуюся на контур L: \[ \Pi = \int_S \overrightarrow{D} \overrightarrow{\mathrm{ds}} \]
+		%\item Ток свободных зарядов через ту же поверхность S: \[ I = \int_S \overrightarrow{j} \overrightarrow{\mathrm{ds}}\]
+		\item Индукция электрического поля через E: \[ \overrightarrow{D} = \varepsilon \varepsilon_0 \overrightarrow{E}\]
+		\item Индукция магнитного поля через H: \[ \overrightarrow{B} = \mu \mu_0 \overrightarrow{H} \]
+		\item Поле равномерно заряженной сферы: \[ E = 
+		\begin{cases}
+			0 & \quad r \leq R \\
+			\frac{kQ}{r^2} & \quad r > R
+		\end{cases} \]
+		\item Поле внутри проводника и вблизи поверхности: \[ E = 0 \]
+	\end{enumerate}
+	
+	
+	\section{Конденсаторы}
+	\begin{enumerate}
+		%\item Ёмкость уединённого проводника: \[ C = \frac{Q}{\varphi}\]
+		\item Ёмкость плоского конденсатора: \[ C = \frac{\varepsilon \varepsilon_0 S}{d} \]
+		%\item Давление электрического поля: \[ p = \frac{\sigma^2}{2 \varepsilon_0} \]
+		\item Плотность энергии электрического поля: \[ w = p = \frac{\varepsilon_0 E_0^2}{2} \]
+		%\item Энергия конденсатора: \[ W = \frac{QU}{2} = \frac{Q^2}{2C} = \frac{CU^2}{2} \]
+		\item Параллельное соединение конденаторов: \[ C_0 = C_1 + C_2 \]
+		\item Последовательное соединение конденсаторов: \[ \frac{1}{C_0} = \frac{1}{C_1} + \frac{1}{C_2} \]
+	\end{enumerate}
+	
+	\section{Электрический ток}
+	\begin{enumerate}
+		%\item Ток: \[ I = \frac{\mathrm{dQ}}{\mathrm{dt}} \]
+		\item Закон Ома в дифференциальной форме: \[ \overrightarrow{j} = \sigma \overrightarrow{E} \]
+		\item Закон Ома для участка цепи: \[ I = \frac{U}{R} \]
+		\item Закон Ома для полной цепи: \[ I = \frac{\varepsilon}{R + r} \]
+		%\item Сопротивление для квазилинейного проводника: \[ R = \frac{l}{\sigma S} \]
+		\item Мгновенная мощность электрического тока: \[ W = UI \]
+		%\item Мощность в единице объёма: \[ w = jE \]
+		%\item Закон Джоуля-Ленца: \[ W = IU \]
+		\item Первое правило Кирхгофа: \[ \sum I_i = 0 \]
+		\item Второе правило Кирхгофа: \[ \sum U_i = 0 \]
+		\item Параллельное соединение резисторов: \[ \frac{1}{R_0} = \frac{1}{R_1} + \frac{1}{R_2} \]
+		\item Последовательное соединение резисторов: \[ R_0 = R_1 + R_2 \]
+	\end{enumerate}
+	
+	\section{Магнитостатика}
+	\begin{enumerate}
+		%\item Поле от тонкого прямолинейного бесконечного проводника с током: \[ H = \frac{I}{2 \pi r} \ \Rightarrow \  B = \frac{\mu \mu_0 I}{2 \pi r} \]
+		%\item Поле от бесконечной пластины с плотностью тока i: \[ H = \frac{i}{2} \Rightarrow B = \frac{\mu \mu_0 i}{2} \]
+		%\item Поле внутри соленоида: \[ H = nI \Rightarrow B = \mu \mu_0 nI \]
+		\item Закон Био-Савара-Лапласа: \[ \overrightarrow{\mathrm{dH}} = \frac{I}{4 \pi r^3} \left[ \overrightarrow{\mathrm{dl}} \times \overrightarrow{r} \right] \]
+		%\item Поле внутри кольца: \[ H = \frac{I}{2R} \Rightarrow B = \frac{\mu \mu_0 I}{2R} \]
+		\item Сила Лоренца: \[ \overrightarrow{F} = q \left[ \overrightarrow{v} \times \overrightarrow{B} \right] \]
+		%\item Ларморовский радиус: \[ R = \frac{mv}{qB} \]
+		\item Сила Ампера: \[ \overrightarrow{\mathrm{dF}} = I \left[ \overrightarrow{\mathrm{dl}} \times \overrightarrow{B} \right] \]
+		%\item Давление магнитного поля: \[ P = \frac{HB}{2} \]
+		\item Плотность энергии магнитного поля: \[ w = \frac{HB}{2} \]
+		\item Закон Фарадея: \[ \varepsilon = - \frac{\partial{\Phi}}{\partial{t}}\]
+		%\item Формула взаимной индукции: \[ \epsilon_2 = - M_{21} \frac{\mathrm{dI_1}}{\mathrm{dt}} \]
+		%\item Отношение напряжений в идеальном трансформаторе: \[ \frac{U_2}{U_1} = \frac{N_2}{N_1} \]
+		%\item Индуктивность для соленоида: \[ L = \mu \mu_0 n^2 l \pi r^2 \]
+		\item Падение напряжения на индуктивности: \[ U_L = -L \frac{\mathrm{dI}}{\mathrm{dt}} \]
+		%\item Последовательное соединение индуктивностей: \[ L_0 = L_1 + L_2 \]
+		%\item Параллельное соединение индуктивностей: \[ \frac{1}{L_0} = \frac{1}{L_1} + \frac{1}{L_2} \]
+		\item Энергия индуктивностей: \[ W_L = \frac{LI^2}{2} \]
+		\item Частота гармонических колебаний в LC-цепях: \[ \omega_0 = \frac{1}{\sqrt{LC}} \]
+	\end{enumerate}
+	
+	%\section{Переходные процессы в электрических цепях}
+	%\begin{enumerate}
+		%\item Сила тока в RC-цепях: \[ I = I_0 e^{-t/RC} \]
+		%\item Сила тока в RL-цепях: \[ I = I_0 e^{-Rt/L} \]
+		
+		%\item Амплитуда гармонических колебаний в LC-цепях: \[ A = \frac{Q_0}{LC \omega_0} = \frac{Q_0}{\sqrt{LC}} \]
+		%\item Сила тока для затухающих колебаний $\lambda^2 < \omega^2_0$: \[ I = e^{- \lambda t} \left( A \sin{\omega t} + B \cos{\omega t} \right), \] \[ \omega = \sqrt{\omega_0^2 - \lambda^2} \]
+		%\item Апериодическое затухание $\lambda^2 > \omega^2_0$: \[ I(t) = A e^{-\left(\lambda - \sqrt{\lambda^2 - \omega_0^2} \right) t} + B e^{- \left( \lambda + \sqrt{\lambda^2 - \omega_0^2} \right) t} \]
+	%\end{enumerate}
+	
+	\section{Переменный ток (стационарный)}
+	\begin{enumerate}
+		%\item Импеданс индуктивности и закон Ома: \[ Z_L = \omega L, \ U_{L0} = I_0 Z_L \]
+		%\item Импеданс для конденсатора: \[ Z_C = \frac{1}{\omega C}, \ U_{C0} = I_0 Z_C \]
+		\item Комплексное сопротивление индуктивности и конденсатора: \[ R_L = i \omega L, \ R_C = \frac{1}{i \omega C} \]
+		%\item Импеданс цепи: \[ Z = \sqrt{R^2 + \left( \omega L - \frac{1}{\omega C} \right)^2 } \]
+		\item Среднее значение мощности: \[ <W> = \frac{I_0^2 R}{2} = \frac{U_0^2}{2R} \]
+		\item Эффективное напряжение: \[ U_{\text{эфф}} = \frac{U_0}{\sqrt{2}}\]
+		%\item Обычная формула для инженеров-электриков!: \[ <W> = \frac{U^2_{\text{эфф}}}{R} \]
+		%\item Средняя мощность со сдвигом фазы напряжения от тока: \[ <W> = \frac{I_0 U_0}{2} \cos{\varphi} \]
+	\end{enumerate}
+	
+	%\section{Электромагнитные волны}
+	%\begin{enumerate}
+		%\item Волновое уравнение для электрического поля $E_y$: \[ \frac{\partial^2 E_y}{\partial t^2} - c^2 \frac{\partial^2 E_y}{\partial x^2} = 0, \ c = \frac{1}{\sqrt{\varepsilon \mu \varepsilon_0 \mu_0}} \]
+		
+		%\item Волновое уравнение для магнитного поля: \[ \frac{\partial^2 H_z}{\partial t^2} - c^2 \frac{\partial^2 H_z}{\partial x^2} = 0 \]
+		%\item Связь между электрическим и магнитными полями: \[ H_z = \pm \sqrt{\frac{\varepsilon \varepsilon_0}{\mu \mu_0}} E_y + \overline{const} \]
+		%\item Импульс единицы объёма волны: \[ p = \frac{w}{c} \]
+		%\item Формула монохроматической волны: \[ E = E_0 \cos(\omega t - kx), \ k = \frac{2 \pi}{\lambda} \]
+	%\end{enumerate}
+	
+	%\section{Волновая оптика}
+	%\begin{enumerate}
+		%\item Формула монохроматической волны: \[ E = \frac{a_0}{r} \cos(\omega t - kr), \ k = \frac{2 \pi}{\lambda} \]
+		%\item Положение первого дифракционного минимума: \[ y = \frac{F \lambda}{d} \]
+		%\item Положение первого дифракционного максимума: \[ y = \frac{3F \lambda}{2d} \]
+	%\end{enumerate}
+	
+	\section{Оптика}
+	\begin{enumerate}
+		\item Скорость света в среде: \[ c = \frac{1}{\sqrt{\varepsilon \mu \varepsilon_0 \mu_0}} \]
+		\item Формула монохроматической волны: \[ E = \frac{a_0}{r} \cos(\omega t - kr), \ k = \frac{2 \pi}{\lambda} \]
+		%\item Принцип наименьшего времени (принцип Ферма): \[ t = \int_{1}^{2} \frac{n \mathrm{dl}}{c_0} \]
+		\item Закон преломления: \[ n_1 \sin{\alpha} = n_2 \sin{\beta} \]
+		\item Угол отклонения луча в тонкой призме: \[ \delta = \omega \left( \frac{n_2}{n_1} - 1 \right) \]
+		\item Формула линзы: \[ \frac{1}{a} + \frac{1}{b} = \frac{1}{F} \]
+		%\item Коэффициент увеличения: \[ k = \frac{H}{h} = \frac{dL}{F_1 F_2} \]
+		%\item Формула для сферического зеркала: \[ F = \frac{R}{2} \]
+		%\item Уравнение параболического зеркала: \[ y = \frac{x^2}{4F} \]
+		\item Показатель преломления света в среде: \[ n = \sqrt{\varepsilon \mu} \]
+		\item Вектор Пойтинга: \[ \overrightarrow{\Pi} = \left[ \overrightarrow{E} \times \overrightarrow{H} \right] \]
+		\item Принцип Гюйгенcа-Френеля: Фронт электромагнитной волны можно представить, как множество маленьких вторичных источников. Каждый из них излучает сферическую волну!
+	\end{enumerate}
+	
+	\section{Квантовая физика}
+	\begin{enumerate}
+		\item Энергия кванта электромагнитной волны: \[ E = h \nu \]
+		\item Импульс фотона: \[ p = \frac{E}{c} = \frac{h}{\lambda} \]
+		\item Уравнение Эйнштейна: \[ h \nu = A + \frac{mv^2}{2} \]
+		%\item Момент импульса электрона: \[ L_e = n \hbar, \ \hbar = \frac{h}{2 \pi} \]
+		%\item Радиус электронного уровня: \[ r_n = 4 \pi \varepsilon \frac{\hbar^2 n^2}{m e^2} \]
+		%\item Формула для уровней энергии электрона в атоме водорода: \[ E_n = - \frac{me^4}{(4 \pi \varepsilon_0)^2 2 \hbar^2} \cdot \frac{1}{n^2} = -(13,6 \ \text{эВ}) \cdot \frac{1}{n^2} \]
+		%\item Релятивистская энергия частицы: \[ E = \frac{mc^2}{\sqrt{1 - \frac{v^2}{c^2}}} \]
+		\item Энергия покоя: \[ E_{\text{покоя}} = mc^2 \]
+		%\item Релятивистский импульс частицы: \[ \overrightarrow{p} = \frac{m \overrightarrow{v}}{\sqrt{1 - \frac{v^2}{c^2}}} \]
+		%\item Связь массы и энергии свободной частицы: \[ E^2 - (pc)^2 = \left( mc^2 \right)^2 \]
+	\end{enumerate}
+	
+	\section{Ядерная физика}
+	\begin{enumerate}
+		\item Формула альфа-распада: \[ X^A_Z = Y_{Z-2}^{A-4} + He_{2}^4 \]
+		\item Формула бета-распада: \[ X^A_Z = Y_{Z+1}^A + e_{-1}^0 + \overline{\nu_e} \]
+		\item Формула естественной радиоактивности: \[ N = N_0 e^{-t / \tau} \]
+		%\item Формула полураспада: \[ N = N_0 \cdot 2^{-t / T} \]
+	\end{enumerate}
+	
+\end{document}
